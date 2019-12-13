@@ -1,0 +1,56 @@
+// option 1
+
+var number1 = 367;
+
+var a = "3";
+var b = "6";
+var c = "7";
+
+if(c != 0) {
+  number2 = c + a + b;
+} else {
+number2 = a + b + c;
+}
+console.log(+number2);
+
+
+// option 2
+
+var number1 = 1002;
+
+var a = "1";
+var b = "0";
+var c = "0";
+var d = "2";
+
+if(number1 % 10 != 0) {
+  number2 = d + a + b + c;
+} else {
+number2 = a + b + c + d;
+}
+console.log(+number2);
+
+
+// option 3
+
+var number1 = 250;
+
+var a = "2";
+var b = "5";
+var c = "0";
+
+if(number1 % 10 != 0) {
+  number2 = c + a + b;
+} else {
+number2 = a + b + c;
+}
+console.log(+number2);
+
+
+// option 4
+
+var number = 8;
+
+var a = "8";
+
+console.log(number = +a);

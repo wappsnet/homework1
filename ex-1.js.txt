@@ -1,0 +1,30 @@
+// option 1
+
+var num = 123;
+var res = num % 2 > 0 ? "odd" : "even";
+
+console.log(res);
+
+
+// option 2
+
+var num = 35;
+
+if(num % 2 > 0 ) {
+  console.log("odd");
+} else {
+  console.log("even");
+};
+
+
+// option 3
+
+var num = 70;
+
+switch(num % 2){
+  case 1:
+  console.log("odd");
+    break;
+  default:
+  console.log("even");
+};

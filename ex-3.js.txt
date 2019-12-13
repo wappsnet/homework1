@@ -1,0 +1,31 @@
+// option 1
+
+var a = "3";
+var b = +a + +a;
+var c = +a + +a + +a;
+
+var res = a + b + c;
+
+console.log(+res);
+
+
+// option 2
+
+var n = "17";
+var nn = +n + +n;
+var nnn = +n + +n + +n;
+
+var res = n + nn + nnn;
+
+console.log(+res);
+
+
+// option 3
+
+var n = "100";
+var nn = +n + +n;
+var nnn = +n + +n + +n;
+
+var res = n + nn + nnn;
+
+console.log(+res);

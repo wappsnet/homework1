@@ -1,0 +1,41 @@
+// option 1
+
+var a = 45;
+var b = 26;
+var c = 78;
+
+if(a > b && b > c) {
+  console.log(c + ", " + b + ", " + a);
+} else if(a > b && c > b && a > c) {
+  console.log(b + ", " + c + ", " + a);
+} else if(b > a && a > c) {
+  console.log(c + ", " + a + ", " + b);
+} else if(b > a && c > a && b > c) {
+  console.log(a + ", " + c + ", " + b);
+} else if(c > a && a > b) {
+  console.log(b + ", " + a + ", " + c);
+} else {
+  console.log(a + ", " + b + ", " + c);
+};
+
+
+
+// option 2
+
+var a = -23;
+var b = -456;
+var c = 0;
+
+if(a > b && b > c) {
+ console.log(c + ", " + b + ", " + a);
+} else if(a > b && c > b && a > c) {
+  console.log(b + ", " + c + ", " + a);
+} else if(b > a && a > c) {
+  console.log(c + ", " + a + ", " + b);
+} else if(b > a && c > a && b > c) {
+  console.log(a + ", " + c + ", " + b);
+} else if(c > a && a > b) {
+  console.log(b + ", " + a + ", " + c);
+} else {
+  console.log(a + ", " + b + ", " + c);
+};
