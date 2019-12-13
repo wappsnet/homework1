@@ -54,3 +54,7 @@ var number = 8;
 var a = "8";
 
 console.log(number = +a);
+
+var a = 367;
+var lastDigit = a%10;
+var prevDigit = (a - lastDigit) % 10
