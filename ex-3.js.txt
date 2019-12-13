@@ -29,3 +29,6 @@ var nnn = +n + +n + +n;
 var res = n + nn + nnn;
 
 console.log(+res);
+
+var num  = 10;
+var result = num + num + "" + num + num + "" + num + "" + num;
